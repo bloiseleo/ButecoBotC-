@@ -1,5 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# 
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButecoBot", "ButecoBot\ButecoBot.csproj", "{3B168754-498C-4CBE-AFEB-388AC256A121}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButecoBot.Discord", "ButecoBot.Discord\ButecoBot.Discord.csproj", "{3FC5F943-3964-4BA8-966D-5B2E8DF88925}"
@@ -7,6 +8,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButecoBot.Web", "ButecoBot.Web\ButecoBot.Web.csproj", "{413B5D1A-80FA-404F-B8E3-B10454BC88BB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Itens", "Solution Itens", "{908C4E45-93BA-4079-8BEB-D6F27EE64121}"
+	ProjectSection(SolutionItems) = preProject
+		docker\docker-compose.dev.yaml = docker\docker-compose.dev.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButecoBot.Discord.Test", "ButecoBot.Discord.Test\ButecoBot.Discord.Test.csproj", "{8FA60EE9-B536-4CB3-80E2-068303732BA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,5 +32,9 @@ Global
 		{413B5D1A-80FA-404F-B8E3-B10454BC88BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{413B5D1A-80FA-404F-B8E3-B10454BC88BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{413B5D1A-80FA-404F-B8E3-B10454BC88BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FA60EE9-B536-4CB3-80E2-068303732BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA60EE9-B536-4CB3-80E2-068303732BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA60EE9-B536-4CB3-80E2-068303732BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA60EE9-B536-4CB3-80E2-068303732BA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
